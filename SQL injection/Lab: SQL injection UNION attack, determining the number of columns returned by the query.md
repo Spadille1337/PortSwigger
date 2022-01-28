@@ -16,7 +16,7 @@
       ```
       
       Payload for this lab:
-      ```
+      ```sql
       ' UNION SELECT NULL,NULL,NULL--+
       
       or
