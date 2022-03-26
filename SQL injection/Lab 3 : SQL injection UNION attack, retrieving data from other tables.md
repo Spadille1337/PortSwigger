@@ -2,5 +2,5 @@ Firstly, Determine the number of columns that are being returned by the query an
 
 Now, use Payload:
 ```sql
-'UNION SELECT username,password FROM users--
+'UNION SELECT username,password FROM users--+
 ```
