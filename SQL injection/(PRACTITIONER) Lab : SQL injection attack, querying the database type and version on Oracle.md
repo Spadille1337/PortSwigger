@@ -1,4 +1,4 @@
-Firstly, Determine the number of columns `'UNION SELECT NULL,NULL FROM dual--+` that are being returned by the query and which columns contain text data `'UNION SELECT 'a','a' FROM dual--+` same as we done in previous labs.
+Firstly, Determine the number of columns `'UNION SELECT NULL,NULL FROM dual--` that are being returned by the query and which columns contain text data `'UNION SELECT 'a','a' FROM dual--` same as we done in previous labs.
 
 To verify the query is returning two columns, and both of which contain text:
 `' UNION SELECT 'a','a' FROM DUAL--`
