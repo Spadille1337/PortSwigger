@@ -12,6 +12,6 @@ Step 3: Go to Burp Collaborator Client and copy the subdomain and paste it in pa
    
 Step 4: Copy and paste it after TrakingId Cookie, the URL encode it then send.
 
-Step 5: Now go to Burp Collaborator, and press 'Poll now'
+Step 5: Now go to Burp Collaborator, and press 'Poll now'  to confirm that a DNS lookup occurred.
 
 Step 6: You will now see the DNS Lookup.
