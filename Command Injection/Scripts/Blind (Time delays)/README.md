@@ -7,3 +7,5 @@ Output:
 delay =  10.767915487289429
 Attack succcessful with Testing Payload : b||ping -c 10 127.0.0.1||
 ```
+
+__You can change payload according to your convinience.__
