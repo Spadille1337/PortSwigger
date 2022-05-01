@@ -8,7 +8,7 @@ if len(sys.argv) != 2:
 
 URL = sys.argv[1]
 
-f=open("OS-Command-Fuzzing.txt","r")
+f=open("dictionary.txt","r")
 path="product/stock/"
 for l in f:
     urli = URL+path
