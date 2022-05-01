@@ -1,6 +1,6 @@
 ### USAGE :
 ```bash
-python3 comInj.py https://ac141fd61efc6bd8c0e80e65002500f0.web-security-academy.net/
+python3 script.py https://ac141fd61efc6bd8c0e80e65002500f0.web-security-academy.net/
 ```
 Output will be something like:
 ```bash
